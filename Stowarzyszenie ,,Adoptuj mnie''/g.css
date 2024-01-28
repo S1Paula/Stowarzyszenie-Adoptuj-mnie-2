@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: rgb(254, 254, 254);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+.header {
+  height: 8.4vw;
+  width: 100vw;
+  background-color: rgb(3, 73, 135);
+}
+
+.Pheader {
+  width: 99.8vw;
+  height: 5vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.Pheader h3 {
+  color: white;
+  font-size: 50px;
+}
+.Pheader img {
+  width: 90px;
+  height: 70px;
+}
+
+.Dheader {
+  width: 99.8vw;
+  height: 3vw;
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Dheader h2 {
+  display: inline;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  margin: 20px;
+}
+.Dheader h2 a {
+  color: white;
+}
+.Dheader h2 a:active {
+  color: gray;
+}
+
+.mHaFg {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mHaFgKwD {
+  margin-top: 20px;
+  width: auto;
+  height: 260px;
+  background-color: rgb(61, 57, 177);
+}
+.mHaFgKwD img {
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-right: 20px;
+  width: auto;
+  height: 200px;
+}
+.mHaFgKwD h2 {
+  display: block;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.margin {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(254, 254, 254);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative; /* body jako kontener dla stopki */
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: auto;
+  width: 100%;
+  height: 80px;
+  background: rgb(3, 73, 135);
+  position: absolute;
+  bottom: 0;
+}
+.footer h1 {
+  color: white;
+  font-size: 24px;
+}
+.footer p {
+  color: white;
+  font-size: 15px;
+}/*# sourceMappingURL=g.css.map */

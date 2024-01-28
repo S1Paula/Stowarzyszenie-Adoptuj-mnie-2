@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    background-color:$B_bgcolor;
+    display: flex;
+    flex-direction: row; //
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+    
+}

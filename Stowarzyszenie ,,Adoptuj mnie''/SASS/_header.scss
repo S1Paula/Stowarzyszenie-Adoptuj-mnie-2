@@ -1,0 +1,56 @@
+.header {
+    height: $H_H;
+    width: $H_W;
+    background-color:$HaF_bgcolor;
+}
+
+.Pheader {
+    width: $Ph_W;
+    height: $Ph_H;
+    margin-left: auto;
+    margin-right: auto;
+    border: $Ph_border;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    h3{
+        color: $Pheader_h3_color;
+        font-size: $Pheader_h3_fs;
+    }
+    img {
+		width: $Pheader_h3_W;
+		height: $Pheader_h3_H;
+	}
+}
+
+.Dheader {
+    width: $Dh_W;
+    height: $Dh_H;
+    margin-top: $Dh_mt;
+    margin-left: $Dh_ml;
+    margin-right: $Dh_mr;
+    border: $Dh_border;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+
+    h2 {
+        display: inline;
+        justify-content: center;
+        text-align: center;
+        font-size: $Dh_h2_fs;
+        margin: $Dh_h2_m;
+        
+        a {
+            color: $Dh_a;
+
+            &:active {
+                color: $Dh_a_a; // Kolor tekstu po naciśnięciu linku
+            }
+        }
+    }
+}
+

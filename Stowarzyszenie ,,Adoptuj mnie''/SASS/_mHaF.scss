@@ -1,0 +1,55 @@
+.mHaF {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: $mHaF_W;
+    height: auto;
+	align-items: center;
+	flex-wrap: wrap;
+    flex-direction: row;
+    
+    img {
+        margin-top: $mHaF_img_mt;
+		width: $mHaF_img_W;
+		height: $mHaF_img_H;
+	}
+    
+    h2 {
+        font-size: $mHaF_h2_fs;
+        color: $mHaF_h2_color;
+        text-align: $mHaF_h2_ta;
+        margin: $mHaF_h2_m;
+        font-weight: $mHaF_h2_fw;
+    }
+
+    ul { //lista nieuporządkowana
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 20px;
+
+        strong { //wytłuszczenie
+            font-weight: bold;
+        }
+
+        &:before { //kropki
+            content: "•";
+            font-size: $liB_fs;
+            margin-right: $liB_mr;
+            color: $liB_color;
+            font-weight: bold;
+        }
+    }
+
+    p {
+        color: $li_p_color;
+        text-align: justify;
+    }
+}
+
+

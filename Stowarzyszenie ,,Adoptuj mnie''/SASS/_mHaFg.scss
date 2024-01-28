@@ -1,0 +1,41 @@
+.mHaFg {
+    width: $mHaFg_W;
+    height: auto;
+    display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mHaFgKwD{
+    margin-top: $mHaFgKwD_mt;
+    width: auto;
+    height: $mHaFgKwD_H;
+    background-color: $mHaFgKwD_color;
+    
+    img {
+		margin-top: $mHaFgKwD_img_mt;
+        margin-left: $mHaFgKwD_img_ml;
+        margin-right: $mHaFgKwD_img_mr;
+		width: auto;
+		height: $mHaFgKwD_img_H;
+        
+	}
+
+    h2 {
+        display: block;
+        font-size: $mHaFgKwD_h2_fs;
+        color: $mHaFgKwD_h2_c;
+        text-align: center;
+        margin: $mHaFgKwD_h2_m;
+        font-weight: bold;
+    }
+}
+
+.margin{
+    width: $margin_W;
+    height: $margin_H;
+    background-color: $B_bgcolor;
+}
+
